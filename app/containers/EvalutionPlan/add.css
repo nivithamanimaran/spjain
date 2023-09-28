@@ -1,0 +1,278 @@
+.lighttypoadd {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  opacity: 50%;
+  width: 120px;
+}
+
+.darktypoadd {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.buttonfloat {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+}
+
+.imgempty {
+  display: flex;
+  justify-content: center;
+}
+
+.lighttypeselec {
+  font-size: 11px;
+  font-weight: 600;
+  color: lightgray;
+}
+
+.flexpercent {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+  float: right;
+}
+
+.percentamount {
+  height: 36px;
+  width: 67px;
+  border: 1px solid #e4e4e4;
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentsign {
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  background-color: #e4e4e4;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.flexEligibility {
+  display: flex;
+  /* gap: '12px'; */
+  align-items: center;
+}
+
+.buttonflot {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  float: right;
+  margin-top: 20px;
+}
+
+.startdivbtnflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentdivbox {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 7px;
+}
+
+.dilogbttndivopen {
+  align-items: center;
+  display: flex;
+  padding: 4px;
+  margin-top: 10px;
+  gap: 14px;
+}
+
+.dilogbttndivopen .MuiButton-contained.Mui-disabled {
+  background-color: rgba(25, 51, 137, 1);
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.editBtn .MuiButton-contained.Mui-disabled {
+  background-color: rgba(25, 51, 137, 1);
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.editBtn .MuiButton-root.Mui-disabled {
+  background-color: rgba(25, 51, 137, 1);
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.editBtn .MuiButton-root:hover {
+  background-color: rgba(25, 51, 137, 1);
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.actionIcon .MuiSvgIcon-root {
+  fill: #737373;
+}
+
+.percentamountadd {
+  height: 36px;
+  width: 70px;
+  border: 1px solid #e4e4e4;
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentname {
+  height: 36px;
+  width: 100px;
+  border: 1px solid #e4e4e4;
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentamountper {
+  height: 36px;
+  width: 74px;
+  border: 1px solid #e4e4e4;
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordionInnercontent {
+  align-items: center;
+  display: flex;
+}
+
+.accordionadd {
+  flex-direction: column;
+}
+
+.firstContent {
+  align-items: center;
+}
+
+.secondContent {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon {
+  text-align: right;
+}
+
+.inputProg {
+  background-color: #ffffff;
+}
+
+/* icon */
+.edit {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.delete {
+  font-size: 20px;
+}
+
+.lableText {
+  font-weight: 500;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  padding: 7px;
+  background-color: #E4E4E4;
+  opacity: 50%;
+}
+
+.lableText1 {
+  font-weight: 500;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  padding: 7px;
+  width: 62px;
+  text-align: center;
+}
+
+.lableBack {
+  background: #ffffff;
+}
+
+.lableBack>div>div>div {
+  /* background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%); */
+  border-radius: 8px;
+}
+
+.avg-alert {
+  color: #f40000;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .darktypoadd {
+    font-size: 13px;
+  }
+
+  .lighttypoadd {
+    font-size: 14px;
+  }
+
+  .lableBack {
+    margin-left: 10px;
+  }
+
+  .lableBack>div>div:nth-child(2)>div {
+    font-size: 13px;
+    padding-block: 4px;
+    padding-right: 105px
+  }
+
+  .percentamountadd {
+    height: 26px;
+
+    padding: 12px 14px;
+    font-size: 10px;
+
+  }
+  .percentamountper {
+    height: 26px;
+
+    padding: 12px 16px;
+    font-size: 10px;
+  }
+  .accordionInnercontent {
+    margin-left: 5px;
+  }
+
+  .dilogbttndivopen {
+    margin-left: 10px;
+  }
+  .icon {
+    margin-left: 150px;
+  }
+}

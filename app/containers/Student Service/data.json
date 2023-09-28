@@ -1,0 +1,75 @@
+{
+    "CrowdfundingData": [
+      {
+        "id": "RecyclingInitiative",
+        "name": "Recycling Initiative",
+        "description": "After years of running the College Garden, we think it’s time to launch a recycling initiative",
+        "pledged": 50,
+        "target": 100,
+        "image": "Event Image.png",
+        "image1": "e9.png",
+        "type": "CrowdfundingData"
+      },
+      {
+        "id": "NewLibraryCataloggingSystem",
+        "name": "New Library Catalogging System",
+        "description": "Library needs better utilisation and the new international standard catalogues can bring that.",
+        "pledged": 100,
+        "target": 50,
+        "image": "Event Img.png",
+        "type": "CrowdfundingData"
+      },
+      {
+        "id": "TriptoMadikeri",
+        "name": "Trip to Madikeri",
+        "description": "Bid on a trip to a dreamy coffee plantation for 3N/2D for 2 people and donate to a cause in ",
+        "goalamount": 50000,
+        "pledged": 14000,
+        "running": "3 Bids",
+        "image1": "e10.png",
+        "image": "e1.png",
+        "type": "Giveaways"
+      },
+      {
+        "id": "HolisticWellnessWorkshop",
+        "name": "Holistic Wellness Workshop",
+        "description": "Bid on this workship for 2 people and donate to a cause in the process.",
+        "goalamount": 10000,
+        "pledged": 2000,
+        "running": "6 Bids",
+        "image": "e2.png",
+        "type": "Giveaways"
+      },
+      {
+        "id": "2021MacbookAir",
+        "name": "2021 Macbook Air",
+        "description": "Bid on this Macbook Air and donate to charity in the progress",
+        "goalamount": 98000,
+        "pledged": 34000,
+        "running": "12 Bids",
+        "image": "e3.png",
+        "type": "Giveaways"
+      },
+      {
+        "id": "DinnerforScholarships",
+        "name": "Dinner for Scholarships",
+        "description": "Bid on a trip to a dreamy coffee plantation for 3N/2D for 2 people and donate to a cause in ",
+        "pledged": 50,
+        "target": 100,
+        "running": "3 Bids",
+        "image": "e4.png",
+        "type": "FundraisingEvents"
+      },
+      {
+        "id": "5kRunforEducation",
+        "name": "5k Run for Education",
+        "description": "Bid on this workship for 2 people and donate to a cause in the process.",
+        "pledged": 20,
+        "target": 80,
+        "running": "6 Bids",
+        "image": "e5.png",
+        "type": "FundraisingEvents"
+      }
+    ]
+  }
+  

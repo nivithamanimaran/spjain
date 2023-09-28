@@ -1,0 +1,38 @@
+{
+  "TableData": [
+    {
+      "S_No": 1,
+      "Transaction_type__c": "Collection",
+      "Fee_Type__c": "Tuition Fees",
+      "Date__c": "01/09/21",
+      "Amount__c": 30000,
+      "Remaining_Amount__c": 0,
+      "Receipt_Number__c": "RCPT001",
+      "Transaction_ID": "TXN001",
+      "Mode_of_payment__c": "NETBANKING"
+    },
+    {
+      "S_No": 2,
+      "Transaction_type__c": "Refund",
+      "Fee_Type__c": "Computer Fees",
+      "Date__c": "01/10/21",
+      "Amount__c": 30000,
+      "Remaining_Amount__c": 0,
+      "Receipt_Number__c": "RCPT002",
+      "Transaction_ID": "TXN002",
+      "Mode_of_payment__c": "NETBANKING"
+    },
+    {
+      "S_No": 3,
+      "Transaction_type__c": "Refund",
+      "Fee_Type__c": "Library Fees",
+      "Date__c": "01/11/21",
+      "Amount__c": 30000,
+      "Remaining_Amount__c": 0,
+      "Receipt_Number__c": "RCPT003",
+      "Transaction_ID": "TXN003",
+      "Mode_of_payment__c": "NETBANKING"
+    }
+  ],
+  "TransactionTypeOptions": ["Collection", "Refund"]
+}

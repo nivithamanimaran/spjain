@@ -1,0 +1,26 @@
+{
+    "TableData": [
+      {
+        "TERM": "TERM",
+        "PARTICULARS": "Emotional Learning",
+        "CURRENCY": "BUS101",
+        "TOTAL_FEE_AMOUNT": "Submitted",
+        "PAYMENT_SCHEDULE_PLAN":"dfhh"
+      }
+    
+    ],
+    "TableData1": [
+      {
+        "Resources": "Facilitator Manual",
+        "Subject": "Business Analytics",
+        "SubjectCode": "BUS101",
+        "Feedback": "Submitted"
+      },
+      {
+        "Resources": "Score Key",
+        "Subject": "Introduction to Marketing",
+        "SubjectCode": "BUS105",
+        "Feedback": "Submitted"
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+{
+  "TableData": [
+    {
+      "checked": true,
+      "Particulars": "Tuition Fees",
+      "Fee_Amount": 50300,
+      "Tax": 7300,
+      "Total_Amount": 50300,
+      "CollectionFrequency": "Yearly"
+    },
+    {
+      "checked": false,
+      "Particulars": "Admission Fees",
+      "Fee_Amount": 50000,
+      "Tax": 4000,
+      "Total_Amount": 50000,
+      "CollectionFrequency": "Yearly"
+    },
+    {
+      "checked": false,
+      "Particulars": "Exam Fees",
+      "Fee_Amount": 2000,
+      "Tax": 1000,
+      "Total_Amount": 2000,
+      "CollectionFrequency": "Yearly"
+    },
+    {
+      "checked": false,
+      "Particulars": "Transportation Charges",
+      "Fee_Amount": 5000,
+      "Tax": 1000,
+      "Total_Amount": 5000,
+      "CollectionFrequency": "Yearly"
+    },
+    {
+      "checked": false,
+      "Particulars": "Mess Charges",
+      "Fee_Amount": 5000,
+      "Tax": 1000,
+      "Total_Amount": 5000,
+      "CollectionFrequency": "Yearly"
+    },
+    {
+      "checked": false,
+      "Particulars": "Activity/Hobbies/Clubs",
+      "Fee_Amount": 3000,
+      "Tax": 1000,
+      "Total_Amount": 3000,
+      "CollectionFrequency": "Yearly"
+    }
+  ],
+  "CollectionFrequencyOptions": ["Yearly", "Half-Yearly", "Quartly", "Monthly"]
+}

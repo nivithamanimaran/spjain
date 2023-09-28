@@ -1,0 +1,22 @@
+{
+  "TableData": [
+    {
+      "Fee_Type": "Tuition Fees",
+      "Due_Amount": 57300,
+      "checked": false,
+      "Amount_To_Pay": 57300
+    },
+    {
+      "Fee_Type": "Library Fees",
+      "Due_Amount": 1000,
+      "checked": false,
+      "Amount_To_Pay": 1000
+    },
+    {
+      "Fee_Type": "Computer Fees",
+      "Due_Amount": 200,
+      "checked": true,
+      "Amount_To_Pay": 200
+    }
+  ]
+}

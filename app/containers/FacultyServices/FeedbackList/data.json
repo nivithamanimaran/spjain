@@ -1,0 +1,50 @@
+{
+  "TableData": [
+    {
+      "Case_No": "12345",
+      "Service_Type": "Sub-Type 1",
+      "Subject": "Subject 1...",
+      "Description": "Description...",
+      "Date": "29/12/2021",
+      "Status": "Active",
+      "Actions": []
+    },
+    {
+      "Case_No": "12345",
+      "Service_Type": "Sub-Type 2",
+      "Subject": "Subject 2...",
+      "Description": "Description...",
+      "Date": "29/12/2021",
+      "Status": "InActive",
+      "Actions": []
+    },
+    {
+      "Case_No": "12345",
+      "Service_Type": "Sub-Type 3",
+      "Subject": "Subject 3...",
+      "Description": "Description...",
+      "Date": "29/12/2021",
+      "Status": "Process",
+      "Actions": []
+    },
+    {
+      "Case_No": "12345",
+      "Service_Type": "Sub-Type 4",
+      "Subject": "Subject 4...",
+      "Description": "Description...",
+      "Date": "29/12/2021",
+      "Status": "Active",
+      "Actions": []
+    }
+  ],
+  "DashboardTabs": [
+  {
+      "index": 1,
+      "title": "Raise A Query"
+    },
+    {
+      "index": 2,
+      "title": "Student Feedback"
+    }
+  ]
+}

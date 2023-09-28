@@ -1,0 +1,84 @@
+.KenDiv {
+  thead,
+  th {
+    font-size: 13px;
+    background-color: #f1f5fa;
+    font-weight: bold;
+  }
+  .MuiGrid-container {
+    display: flow-root;
+  }
+}
+.collapsible table {
+  thead,
+  th {
+    text-align: 'right';
+  }
+}
+.KenDivFeeSchedule {
+  thead,
+  th {
+    font-size: 13px;
+    background-color: #f1f5fa;
+    font-weight: bold;
+    // text-align: initial;
+  }
+}
+.KenTransaction {
+  thead,
+  th {
+    font-size: 13px;
+    background-color: #f1f5fa;
+    font-weight: bold;
+  }
+  tbody tr:first-child {
+    background: red;
+    display: none;
+  }
+  .mystudent-table {
+    thead,
+    th:nth-child(1) {
+      text-align: left;
+    }
+  }
+}
+.nameInput {
+  .MuiInputBase-input {
+    padding: 10px 26px 10px 12px;
+  }
+}
+.collapsedDiv {
+  thead,
+  th {
+    font-size: 12px;
+    background-color: #f1f5fa;
+    font-weight: bold;
+  }
+  .MuiTableCell-root {
+    border-bottom: 0px;
+  }
+}
+.offerLetterFee {
+  thead,
+  th {
+    font-size: 13px;
+    background-color: #f1f5fa;
+    font-weight: bold;
+    color: #092682;
+  }
+  thead,
+  th:first-child {
+    text-align: initial;
+  }
+  tbody,
+  td:first-child {
+    text-align: start;
+  }
+}
+.manual-payment-module {
+  position: relative;
+  top: 4px;
+  input {
+    height: 1.65em;
+  }
+}

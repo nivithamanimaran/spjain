@@ -1,0 +1,352 @@
+.boxShadow {
+  background: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .boxShadow {
+    background: #ffffff;
+    /* border-radius: 12px 12px 0px 0px; */
+  }
+}
+
+.aug {
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: capitalize !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .aug {
+    width: 46px !important;
+  }
+}
+
+.Cancel-Event .MuiDialog-container .MuiPaper-root {
+  height: 257px !important;
+  width: 360px !important;
+}
+
+.event-name-div {
+  display: flex;
+}
+
+.image1 {
+  width: 100%;
+  height: 20rem;
+  border-radius: 12px 12px 0px 0px;
+  /* width: 'fit-content'; */
+}
+
+@media only screen and (max-width: 650px) {
+  .image1 {
+    height: 93px !important;
+  }
+}
+
+.borderC {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 16px !important;
+  /* border-bottom: 1px solid #F1F5F8; */
+}
+
+.border1 {
+  padding: 4px 6px 4px 6px;
+  /* padding-bottom: 0px; */
+  /* padding-top: 0px; */
+  font-size: 40px;
+  font-weight: 600 !important;
+  color: #000000;
+  /* height: 60px; */
+}
+
+@media only screen and (max-width: 650px) {
+  .border1 {
+    width: fit-content !important;
+    height: fit-content !important;
+    padding: 5px !important;
+    font-size: 20px !important;
+  }
+}
+
+.aug1 {
+  font-size: 12px;
+  font-weight: 600 !important;
+  margin-top: 1px;
+  color: #000000;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .aug1 {
+    font-size: 8px !important;
+  }
+}
+
+.annualTypo {
+  font-size: 34px !important;
+  font-weight: 600 !important;
+  margin-left: 1rem !important;
+  color: #000000 !important;
+  line-height: 100% !important;
+  text-align: left;
+}
+
+@media only screen and (max-width: 650px) {
+  .annualTypo {
+    font-size: 14px !important;
+  }
+}
+
+.mid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+  padding-bottom: 0.5rem;
+  /* border-bottom: 1px solid #F1F5F8; */
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+ 
+
+.midClild {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .midClild {
+    margin-top: 8px !important;
+    margin-left: 0px;
+  }
+}
+
+.typo {
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+  color: rgb(122 123 124) !important;
+}
+
+.typo1 {
+  font-weight: 500 !important;
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: #000000 !important;
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 7.5rem;
+  /* margin-top: 6px; */
+}
+
+@media only screen and (max-width: 650px) {
+  .last {
+    margin-top: 10px !important;
+  }
+}
+
+.typo2 {
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+  color: rgb(122 123 124) !important;
+}
+
+.typo12 {
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+  color: rgb(122 123 124) !important;
+  margin-top: 2px !important;
+}
+
+.flex {
+  display: flex;
+  margin-top: 6px;
+}
+
+.border2 {
+  border: 1px solid #d9d9d9;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #000000 !important;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 650px) {
+  .border2Child {
+    margin-right: 0px !important;
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .border2 {
+    font-size: 10px !important;
+  }
+}
+
+.border2Child {
+  border: 1px solid #d9d9d9;
+  font-weight: 500 !important;
+  font-size: 12px;
+  margin-right: 15px;
+  color: #000000 !important;
+  padding: 2px;
+}
+
+.lastChild {
+  /* display: flex; */
+  /* flex-direction: column; */
+  text-align: left;
+  margin-left: 1.5rem;
+  margin: 1.5rem;
+  /* width: 50%; */
+}
+
+.typoP {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  padding-bottom: 5px !important;
+  color: #000000 !important;
+  text-transform: uppercase;
+}
+
+.typoC {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.mapTypoP {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  padding-bottom: 5px !important;
+  color: #000000 !important;
+  text-transform: uppercase;
+}
+
+.map {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.mapTypoC {
+  padding-left: 1rem;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #000000 !important;
+  line-height: 150% !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .mapTypoC {
+    font-size: 12px;
+  }
+}
+
+.icon {
+  color: #092682 !important;
+  font-size: '20px';
+}
+
+.typoContent {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #000000 !important;
+  font-style: normal !important;
+  line-height: 150% !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .typoContent {
+    font-size: 12px;
+  }
+}
+
+.cancelButton {
+  color: #dd4b39 !important;
+  cursor: pointer;
+  border: 1px solid #dd4b39 !important;
+  border-radius: 4px;
+  min-width: 16% !important;
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 16px;
+  height: 40px !important;
+  text-transform: none !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .cancelButton {
+    top: 20px !important;
+    width: 45% !important;
+    font-size: 16px !important;
+    height: 30px !important;
+  }
+}
+
+.RegisterButton {
+  color: white !important;
+  cursor: pointer;
+  border-radius: 4px;
+  /* width: 16% !important; */
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #193389 !important;
+  height: 40px !important;
+  text-transform: none !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .RegisterButton {
+    top: 20px !important;
+    width: 45% !important;
+    font-size: 16px !important;
+    height: 30px !important;
+  }
+}
+
+.DateFormat {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  max-width: 66px;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .DateFormat {
+    margin-left: 0rem !important;
+  }
+}
+
+.ButtonText {
+  font-size: 13px !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .ButtonText {
+    font-size: 10px !important;
+  }
+}

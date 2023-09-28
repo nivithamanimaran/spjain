@@ -1,0 +1,84 @@
+.invoice-page-wrapper {
+  background-color: #f6f8fa;
+  width: 100%;
+  padding: 0 !important;
+}
+.invoice-custom-table-wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  padding-right: 3%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-top: none;
+}
+.dot-card,
+.dot-card:hover {
+  background: rgba(19, 89, 193, 0.1098039216);
+}
+.dot-card {
+  width: 30%;
+  border: 1px dotted #1359c1;
+  position: relative;
+}
+.card-third-round {
+  background-color: #1359c1;
+}
+.card-second-round,
+.card-third-round {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.pdf-extract-wrap .onboard-card-header {
+  font-size: 14px;
+  color: #091e42;
+  margin: 0;
+  padding: 0;
+}
+.pdf-extract-wrap .onboard-card-title {
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b778c;
+  margin: 0;
+  padding: 10px 0 0;
+}
+.dot-card {
+  width: 30%;
+  border: 1px dotted #1359c1;
+  position: relative;
+}
+.onboard-card {
+  padding: 50px 32px;
+  box-shadow: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.onboard-card-header,
+.onboard-card-title {
+  font-family: OpenSans-Regular;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.onboard-card-title {
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b778c;
+}
+.browse-content {
+  text-decoration: underline;
+  color: #2162c4;
+  cursor: pointer;
+}

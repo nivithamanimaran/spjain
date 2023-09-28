@@ -1,0 +1,92 @@
+.main {
+  background-color: #f4f5f7;
+}
+
+.update_section {
+  background-color: #fff;
+  box-shadow: 0px 1px 18px rgba(16, 30, 115, 0.06);
+  border-radius: 12px 12px 0px 0px;
+  padding: 16px;
+}
+
+.divider {
+  color: #f4f5f7;
+}
+.upadte_title {
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  padding-bottom: 8px !important;
+  color: #061938 !important;
+}
+
+.update_details {
+  padding-top: 16px !important;
+}
+
+.update_details_icon {
+  padding: 10px;
+  background-color: #f4f5f7;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 50px;
+}
+.update_image_grid {
+  flex-grow: 0;
+  max-width: 6% !important;
+  flex-basis: 6% !important;
+}
+
+.upadte_details_text_title {
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  /* padding-bottom: 8px !important; */
+  color: #505f79 !important;
+}
+
+.upadte_details_text_des {
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  /* padding-bottom: 8px !important; */
+  color: #092682 !important;
+  padding-top: 5px;
+}
+
+.update_section_blue {
+  background-color: #f4f6ff;
+  /* box-shadow: 0px 1px 18px rgba(16, 30, 115, 0.06); */
+  /* border-radius: 12px 12px 0px 0px; */
+  padding: 16px;
+}
+
+.update_details_icon_blue {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.cardlsitbox {
+  margin-top: 18px !important;
+}
+.tab_list_box div {
+  background: #fff !important;
+  padding: 0px 2px !important;
+  margin-top: 3px !important;
+  border-radius: 9px !important;
+}
+.apply-btn-text {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: #fff;
+  text-transform: capitalize !important;
+  width: fit-content !important;
+  margin-right: 10px !important;
+}

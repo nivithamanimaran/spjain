@@ -1,0 +1,108 @@
+.mentorProfile-main{
+  display: flex;
+  flex-direction: column;
+}
+.mprofilediv{
+  display: flex;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+  font-size: 11px;
+}
+.mprofilediv{
+display: flex;
+align-items: center;
+border-bottom: 1px solid #D2E1E9;
+padding-bottom: 1rem;
+}
+.mprofileavailable{
+  margin-left: -10px;
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+.mprofilemiddle{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #D2E1E9;
+}
+.mprofilesub{
+  display: flex;
+  font-weight: 600 !important;
+  font-size: 11px;
+  margin-top: 1rem;margin-bottom: 0.5rem;
+}
+.mprofilesubdiv{
+  border: 1px solid #E4E4E4;
+  display: flex;
+  padding: 10px 3rem 10px 10px ;
+  border-radius: 8px;
+}
+.mprofilemanagement{
+  border: 1px solid #E4E4E4;
+  margin-left: 0.5rem;
+  font-weight: 500 !important;
+  font-size: 12px;
+  padding: 2px;
+}
+.mprofilenet{
+  border: 1px solid #E4E4E4;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px;
+  margin-right: 0.5rem;
+}
+.mprofileformdiv{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.mprofileformdivtypo{
+  display: flex;
+  font-size: 11px;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+  margin-top: 1rem !important;
+}
+.mentorprofilelast{
+  display: flex;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+.mentorprofilelast1{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+.mentorprofilediv{
+  border: 1px solid #E4E4E4;
+  display: flex;
+  width: 25rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+.mentorprofilepara{
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500 !important;
+}
+.formeProfilentordiv{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.mentorProfileAvailable{
+  font-weight: 500 !important;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.mentorprofileflex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

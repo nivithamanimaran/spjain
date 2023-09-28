@@ -1,0 +1,260 @@
+.MuiBox-root .profile-main-div .MuiGrid-container .profile-img {
+  border-radius: 35px;
+  width: 100%;
+  height: 90%;
+}
+.MuiBox-root .profile-main-div {
+  background: #ffffff;
+  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin: 0;
+  padding: 42px 32px;
+}
+.profile-tab-list .profile-tab-name {
+  font-size: 14px;
+}
+.profile-main-div .MuiBox-root .tab-description-main {
+  margin-top: 32px;
+  padding: 0;
+}
+.profile-name-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.profile-btn .profile-bar {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 28px;
+  color: #f17227;
+}
+.profile-name-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+  font-family: 'Work Sans', sans-serif;
+}
+.respreferral{
+  width:77%;
+  display:flex
+}
+@media (max-width: 768px) {
+  .profile-name-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .respButton{
+    font-size: 12px;
+  }
+  .MuiGrid-container .about-div-main {
+    margin-bottom: 30px !important;
+  }
+  .respButton{
+    margin-left:10px
+  }
+  .respreferral{
+    width:100%;
+    display:block
+  }
+  .summary-degree-div {
+    margin-left: 0px !important;
+  }
+  .remsResp1{           
+         width: 15rem !important;
+  }
+  .remsResp{           
+    width: 15rem !important;
+}
+}
+.remsResp1{           
+  width: 20rem,
+}
+.remsResp{           
+  width: 20rem,
+}
+.graduate-div {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 40px;
+  margin-top: 40px;
+}
+.edit-graduate-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+.personal-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+.summary-main-div {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+}
+.summary-sub-div .info-name-div {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.btndivend {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin-top: 20px;
+}
+.summary-sub-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-div-main .about-name-tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 1;
+}
+.about-div-main .about-name-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Work Sans', sans-serif;
+}
+.about-name-description{
+  padding-right: 20px;
+}
+.note-main-div {
+  margin: 20px;
+}
+.note-main-div .note-fact {
+  color: #050a19;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.note-main-div .note-fact-description {
+  color: #050a19;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+}
+.about-div-main .about-name-value {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.MuiGrid-container .about-div-main {
+  margin-bottom: 220px;
+}
+.about-desc {
+  margin-bottom: 20px;
+}
+.gender-div {
+  width: 160px;
+}
+.gender-div .select-input-box .MuiOutlinedInput-root {
+  height: 40px;
+}
+.summary-location {
+  margin-top: 24px;
+}
+.summary-degree-div {
+  margin-left: 24px;
+}
+.summary-main-div .summary-sub-div .select-input-box .MuiOutlinedInput-root {
+  width: 160px;
+  height: 40px;
+}
+.multiselect-div .MuiFormControl-root {
+  margin: 0;
+}
+.multiselect-div .MuiFormControl-root .MuiOutlinedInput-root {
+  height: 40px;
+}
+.summary-social-link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.summary-main-div
+  .summary-sub-div
+  .select-input-box
+  .MuiOutlinedInput-root
+  .MuiSelect-select {
+  padding: 0;
+}
+.react-datepicker-wrapper .react-datepicker__input-container input {
+  height: 40px;
+}
+.about-div-main .sub-title-about {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.about-div-main .note-div {
+  width: 280px;
+  height: 180px;
+  background: #d2e4ff;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.profile-main-div {
+  background-color: #fff;
+  padding: 20px;
+}
+.profile-img {
+  width: 100%;
+}
+.title-div{
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.5;
+}
+.value-div{
+  color: #000;
+  font-weight: 500;
+}
+.about-name-tab{
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 600;
+}
+.title-div, .value-div{
+  font-family: 'Work Sans', sans-serif;
+}

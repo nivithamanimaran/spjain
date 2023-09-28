@@ -1,0 +1,67 @@
+.grade-div {
+  span.Grade {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  span.Grade.Name-A\+ {
+    background: #1bbe75;
+    color: #fff;
+  }
+  span.Grade.Name-A {
+    background: #78d8ad;
+    color: #fff;
+    span {
+      padding: 0px 4px;
+    }
+  }
+  span.Grade.Name-B\+ {
+    background: #4da0ff;
+    color: #fff;
+  }
+  span.Grade.Name-B {
+    background: #4da0ff;
+    color: #fff;
+    span {
+      padding: 0px 4px;
+    }
+  }
+  span.Grade.Name-C {
+    background: #f8aaa4;
+    color: #fff;
+    span {
+      padding: 0px 4px;
+    }
+  }
+}
+.collapse-ACTIONS {
+  text-align: right !important;
+  padding-right: 40px !important;
+}
+
+.pop-up-model-width {
+  min-width: 500px !important;
+  padding: 0px !important;
+}
+
+.pop-up-model-title-text {
+  font-size: 15px;
+  font-weight: 400;
+  width: 75px;
+  text-align: end;
+}
+
+.pop-up-model-main-text {
+  font-size: 17px;
+  font-weight: 800;
+  color: #000043;
+}
+
+.list-item {
+  padding-left: 10% !important;
+  padding-right: 16px;
+}
+.pop-model-main-title-text h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}

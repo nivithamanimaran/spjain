@@ -1,0 +1,113 @@
+{
+  "Subject": [
+    {
+      "sno": "1. ",
+      "title": "This Subject meets my expectations",
+      "rating": 3.5
+    },
+    {
+      "sno": "2. ",
+      "title": "The contents of the Subject are very useful",
+      "rating": 3
+    },
+    {
+      "sno": "3. ",
+      "title": "The Text Book is very helpful",
+      "rating": 3
+    },
+    {
+      "sno": "4. ",
+      "title": "The Subject is well designed and structured",
+      "rating": 3
+    },
+    {
+      "sno": "5. ",
+      "title": "The Subject is useful to my career",
+      "rating": 3
+    },
+    {
+      "sno": "6. ",
+      "title": "Assignments and Examinations were very well designed to test my understanding of the Subject",
+      "rating": 3
+    },
+    {
+      "sno": "7. ",
+      "title": "Overall, this is an excellent Subject",
+      "rating": 3
+    }
+  ],
+  "Faculty": [
+    {
+      "sno": "1. ",
+      "title": "Explains the material clearly and to the point",
+      "rating": 3.5
+    },
+    {
+      "sno": "2. ",
+      "title": "Is clear with the subject concepts",
+      "rating": 3
+    },
+    {
+      "sno": "3. ",
+      "title": "Is able to handle the class effectively",
+      "rating": 3
+    },
+    {
+      "sno": "4. ",
+      "title": "Involves the students in the class",
+      "rating": 3
+    },
+    {
+      "sno": "5. ",
+      "title": "Accessible to students in and out of the Class",
+      "rating": 3
+    },
+    {
+      "sno": "6. ",
+      "title": "Relates subject matter with practical examples",
+      "rating": 3
+    },
+    {
+      "sno": "7. ",
+      "title": "Provides timely feedback on Tests and Assignments",
+      "rating": 3
+    },
+    {
+      "sno": "8. ",
+      "title": "Is very fair and objective in assessment",
+      "rating": 3
+    },
+    {
+      "sno": "9. ",
+      "title": "Overall, he/she is an excellent Faculty",
+      "rating": 3
+    }
+  ],
+  "Instructions": [
+    {
+      "title": "Strongly Agree:",
+      "rating": 5,
+      "class": "strongAgree"
+    },
+    {
+      "title": "Agree:",
+      "rating": 4,
+      "class": "agree"
+    },
+    {
+      "title": "Neither Agree or Disagree:",
+      "rating": 3,
+      "class": "neitherAgreeDisagree"
+    },
+    {
+      "title": "Disagree:",
+      "rating": 2,
+      "class": "disagree"
+    },
+    {
+      "title": "Strongly Disagree:",
+      "rating": 1,
+      "class": "strongDisagree"
+    }
+  ]
+}

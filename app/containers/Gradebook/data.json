@@ -1,0 +1,83 @@
+{
+  "Grading Components": [
+    {
+      "label": "Assignments",
+      "percentage": "5%",
+      "data": [
+        { "id": "assign1", "label": "Assignment 1", "marks": "20 Marks", "percentage": "50%" },
+        { "id": "assign2", "label": "Assignment 2", "marks": "15 Marks", "percentage": "25%" },
+        { "id": "assign3", "label": "Assignment 3", "marks": "15 Marks", "percentage": "25%" }
+      ]
+    },
+    {
+      "label": "Quizzes",
+      "percentage": "10%",
+      "data": [
+        { "id": "quizz1", "label": "Quizz 1", "marks": "20 Marks", "percentage": "50%" },
+        { "id": "quizz2", "label": "Quizz 2", "marks": "15 Marks", "percentage": "25%" },
+        { "id": "quizz3", "label": "Quizz 3", "marks": "15 Marks", "percentage": "25%" }
+      ]
+    },
+    {
+      "label": "Attendance",
+      "percentage": "15%",
+      "data": [
+        { "id": "attend1", "label": "Attendance 1", "marks": "20 Marks", "percentage": "50%" },
+        { "id": "attend2", "label": "Attendance 2", "marks": "15 Marks", "percentage": "25%" },
+        { "id": "attend3", "label": "Attendance 3", "marks": "15 Marks", "percentage": "25%" }
+      ]
+    },
+    {
+      "label": "Mid-Term Exams",
+      "percentage": "30%",
+      "data": [
+        { "id": "midT1", "label": "Mid-Term Exam 1", "marks": "20 Marks", "percentage": "50%"},
+        { "id": "midT2", "label": "Mid-Term Exam 2", "marks": "15 Marks", "percentage": "25%"},
+        { "id": "midT3", "label": "Mid-Term Exam 3", "marks": "15 Marks", "percentage": "25%"}
+      ]
+    },
+    {
+      "label": "Final Exam",
+      "percentage": "40%",
+      "data": [
+        { "id": "finalE1", "label": "Final Exam 1", "marks": "20 Marks", "percentage": "50%" },
+        { "id": "finalE2", "label": "Final Exam 2", "marks": "15 Marks", "percentage": "25%" },
+        { "id": "finalE3", "label": "Final Exam 3", "marks": "15 Marks", "percentage": "25%" }
+      ]
+    }
+  ],
+  "Grade Points": [
+    {
+      "Grade Name": "A+",
+      "Range": "86% - 100%",
+      "Grade Point": 10
+    },
+    {
+      "Grade Name": "A",
+      "Range": "71% - 85%",
+      "Grade Point": 9
+    },
+    {
+      "Grade Name": "B+",
+      "Range": "56% - 70%",
+      "Grade Point": 8
+    },
+    {
+      "Grade Name": "B",
+      "Range": "41% - 55%",
+      "Grade Point": 7
+    },
+    {
+      "Grade Name": "C",
+      "Range": "25% - 41%",
+      "Grade Point": 6
+    }
+  ],
+  "Subjects": [
+    { "label": "Financial Accounting", "SubjectCode": "FIN 101", "Credits": 3 },
+    { "label": "Human Resource Management", "SubjectCode": "HRM 102", "Credits": 3 },
+    { "label": "Economics", "SubjectCode": "ECO 103", "Credits": 3 },
+    { "label": "Operations Management", "SubjectCode": "OPM 104", "Credits": 3 },
+    { "label": "Business Communication Management", "SubjectCode": "BCM 105", "Credits": 3 }
+  ]
+}

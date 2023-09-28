@@ -1,0 +1,21 @@
+{
+    "TableData": [
+      {
+        "Program": "GMBA",
+        "Subject": "Business Analytics",
+        "SubjectCode": "BUS101",
+        "Feedback": "Submitted"
+      },
+      {
+        "Program": "BBA",
+        "Subject": "Introduction to Marketing",
+        "SubjectCode": "BUS105",
+        "Feedback": "Submitted"
+      }, {
+        "Program": "BCOM",
+        "Subject": "Quality Management",
+        "SubjectCode": "MGT301",
+        "Feedback": "Pending"
+      }
+    ]
+  }

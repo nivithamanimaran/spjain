@@ -1,0 +1,42 @@
+{
+  "success": "true",
+  "programplan": "hed__Program_Enrollment__c:{Id=a081y000001MqulAAC, hed__Program_Plan__c=a0F1y00000134nEEAQ}",
+  "Data": [
+    {
+      "attributes": {
+        "type": "K42_Fee_Inventory__c",
+        "url": "/services/data/v53.0/sobjects/K42_Fee_Inventory__c/a0d1y000000tI2JAAU"
+      },
+      "Applicable_Category_of_Students__c": "General",
+      "Fee_Type_Name__c": "University Fee",
+      "Fee_Amount__c": 60000.0,
+      "Total_Fee_Amount__c": 52800.0,
+      "IsMan__c": true,
+      "Id": "a0d1y000000tI2JAAU"
+    },
+    {
+      "attributes": {
+        "type": "K42_Fee_Inventory__c",
+        "url": "/services/data/v53.0/sobjects/K42_Fee_Inventory__c/a0d1y000000tI5GAAU"
+      },
+      "Applicable_Category_of_Students__c": "General",
+      "Fee_Type_Name__c": "New Building Fee",
+      "Fee_Amount__c": 100000.0,
+      "Total_Fee_Amount__c": 90000.0,
+      "IsMan__c": true,
+      "Id": "a0d1y000000tI5GAAU"
+    },
+    {
+      "attributes": {
+        "type": "K42_Fee_Inventory__c",
+        "url": "/services/data/v53.0/sobjects/K42_Fee_Inventory__c/a0d1y000000tHwMAAU"
+      },
+      "Applicable_Category_of_Students__c": "General",
+      "Fee_Type_Name__c": "2021 Student Donation",
+      "Fee_Amount__c": 1000000.0,
+      "Total_Fee_Amount__c": 1000000.0,
+      "IsMan__c": true,
+      "Id": "a0d1y000000tHwMAAU"
+    }
+  ]
+}

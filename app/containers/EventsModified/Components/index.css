@@ -1,0 +1,185 @@
+.container {
+  /* width: 335px !important; */
+  /* height:251px !important; */
+  border-radius: 12px !important;
+  background-color: #FFFFFF !important;
+  margin-bottom:16px !important;
+}
+.imageSize {
+  width: 100% !important;
+  height: 105px !important;
+  border-radius: 12px 12px 0px 0px !important;
+}
+.cardContainer {
+  padding: 15px 15px 25px 15px !important;
+}
+.container:hover .cardContainer{
+  background-color: #193389;
+  color: #FFFFFF;
+  border-radius: 0px 0px 12px 12px;
+}
+.container:hover .Title {
+  color: #FFFFFF !important;
+}
+
+.Title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 150% !important;
+  color: #000000 !important;
+  height:35px !important
+}
+@media only screen and (max-width: 556px) {
+  .Title {
+    font-size: 14px !important;
+  }
+  .fontSize {
+    font-size: 12px !important;
+  }
+  .IconStyle {
+    height:16px !important;
+  }
+}
+.containerContent {
+  padding-top: 40px !important;
+}
+.container:hover .containerContent  .IconStyle  {
+  color: #FFFFFF !important;
+}
+.container:hover .containerContent  .IconStyle1  {
+  color: #FFFFFF !important;
+}
+.container:hover .containerContent  .fontSize  {
+  color: #FFFFFF !important;
+}
+.IconStyle {
+  color:#000000!important;
+}
+.alignItems {
+  display: flex !important;
+  align-items: center !important;
+  font-size: 15px !important;
+}
+.IconStyle1 {
+  color: #000000!important;
+  width: 24px!important;
+  height: 21px!important;
+  transform: rotateY(187deg)!important;
+}
+@media only screen and (max-width: 556px) {
+  .IconStyle1 {
+    /* width: 12px!important; */
+    height: 16px!important;
+    margin-left:0px !important 
+  }
+}
+
+.fontSize {
+  font-size: 14px!important;
+  font-weight: 600!important;
+  line-height: 100%!important;
+  color: #565656!important;
+}
+.container:hover .Day {
+  color: #FFFFFF !important;
+}
+.container:hover .month {
+  color: #FFFFFF !important;
+}
+.container:hover .monthArea  {
+  color: #FFFFFF !important;
+}
+.container:hover .button  {
+  color: #193389!important;
+  background-color: #FFFFFF !important;
+}
+.Day {
+  font-size: 28px!important;
+  font-weight: 600!important;
+  line-height: 100%!important;
+  color: #000000!important;
+}
+@media only screen and (max-width: 556px) {
+  .Day {
+    font-size: 20px !important;
+  }
+}
+
+
+.month {
+  font-size: 10px!important;
+  font-weight: 600!important;
+  line-height: 12px!important;
+  color: #000000!important;
+}
+@media only screen and (max-width: 556px) {
+  .month {
+    font-size: 8px !important;
+    margin-bottom: -3px !important;
+  }
+}
+
+
+.monthArea {
+  display: flex!important;
+  align-items: flex-end!important;
+  margin-bottom: 2px !important;
+  margin-left: 2px !important;
+}
+@media only screen and (max-width: 556px) {
+
+ 
+}
+.RightContainer {
+  margin-top: 11px!important;
+}
+
+@media only screen and (max-width: 556px) {
+  .RightContainer {
+    margin-top: 0px !important;
+  }
+}
+
+.button {
+  border-radius: 4px!important;
+  font-size: 10px!important;
+  font-weight:500!important;
+  background-color: #193389!important;
+  color: #FFFFFF!important;
+  text-transform: capitalize!important;
+  margin-top:15px!important;
+}
+@media only screen and (max-width: 556px) {
+  .button {
+    margin-top: 15px !important;
+    width: 52px !important;
+  }
+}
+.RightArea {
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
+@media only screen and (max-width: 556px) {
+  .RightArea {
+    margin-top: -2px !important;
+    margin-left: 20px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

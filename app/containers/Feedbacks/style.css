@@ -1,0 +1,11 @@
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .feedbackResp > div > div > table {
+    width: 160%;
+  }
+  .feedbackResp > div > div {
+    overflow-x: auto;
+  }
+}

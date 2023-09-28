@@ -1,0 +1,14 @@
+.timetable-card {
+  .fc-bg-event.fc-event.fc-event-start.fc-event-end.fc-event-past {
+    opacity: 1;
+  }
+  .fc-bg-event.fc-event.fc-event-end.fc-event-past {
+    opacity: 1;
+  }
+  .fc-bg-event.fc-event.fc-event-start.fc-event-past {
+    opacity: 1;
+  }
+  .fc-bg-event.fc-event.fc-event-start.fc-event-end.fc-event-today {
+    opacity: 1;
+  }
+}

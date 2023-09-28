@@ -1,0 +1,34 @@
+{
+  "TableData": [
+    {
+      "Fee_Type": "Tuition Fees",
+      "Total_Fees": 57300,
+      "Paid": 57300,
+      "Balance": 0,
+      "Due_Date": "01/11/21",
+      "Due_Amount": 57300,
+      "Paid_On": "19/11/21",
+      "Status": "Paid"
+    },
+    {
+      "Fee_Type": "Tuition Fees",
+      "Total_Fees": 57300,
+      "Paid": 0,
+      "Balance": 57300,
+      "Due_Date": "01/11/21",
+      "Due_Amount": 57300,
+      "Paid_On": "19/11/21",
+      "Status": "Pending"
+    },
+    {
+      "Fee_Type": "Tuition Fees",
+      "Total_Fees": 57300,
+      "Paid": 57300,
+      "Balance": 0,
+      "Due_Date": "01/11/21",
+      "Due_Amount": 57300,
+      "Paid_On": "19/11/21",
+      "Status": "Paid"
+    }
+  ]
+}

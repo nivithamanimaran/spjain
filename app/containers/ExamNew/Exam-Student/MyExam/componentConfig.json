@@ -1,0 +1,14 @@
+{
+  "CS101": {
+    "examMode": "Online",
+    "format": "Written",
+    "examPattern": "Open Book",
+    "facility": "ARB001"
+  },
+  "MATH202": {
+    "examMode": "Offline",
+    "format": "Multiple Choice",
+    "examPattern": "Closed Book",
+    "facility": "ARB002"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "FacultyDashboard": {
+    "Assessments": [
+      {
+        "AssessmentName": "Assessment I",
+        "Status": "Resume",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Assessment II",
+        "Status": "Publish",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Grade Answer Sheet",
+        "Status": "Grade",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Create Question Paper",
+        "Status": "Resume",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Assessment V",
+        "Status": "Publish",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Assessment VI",
+        "Status": "Publish",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "AssessmentName": "Assessment VII",
+        "Status": "Publish",
+        "Subject": "Principles of Management",
+        "Course": "BBA-2022",
+        "DueDate": "21/06/2022",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      }
+    ],
+    "Assignments": [],
+    "Resources": [
+      {
+        "fileName": "chapter1",
+        "fileType": "ppt",
+        "subject": "Principles of Management",
+        "background": "#E3F8FF",
+        "color": "#1CAEE4"
+      },
+      {
+        "fileName": "chapter2",
+        "fileType": "mp4",
+        "subject": "Business Statistics",
+        "background": "#FFF4CF",
+        "color": "#C29705"
+      },
+      {
+        "fileName": "chapter3",
+        "fileType": "mp4",
+        "subject": "Financial Accounting",
+        "background": "#FFF4CF",
+        "color": "#C29705"
+      },
+      {
+        "fileName": "chapter4",
+        "fileType": "mp4",
+        "subject": "Cost Accounting",
+        "background": "#FFF4CF",
+        "color": "#C29705"
+      },
+      {
+        "fileName": "chapter5",
+        "fileType": "pdf",
+        "subject": "Microeconomics 101",
+        "background": "#FFEAE4",
+        "color": "#E75D3B"
+      }
+    ],
+    "Discussion Forum": []
+  },
+  "My Subjects": [
+    {
+      "Subject Name": "Principles of Management",
+      "percentage": 75,
+      "resource": 15,
+      "activities": 5,
+      "background": "#FAF0FF",
+      "color:": "#C06DE9",
+      "NoOfStudents": 90,
+      "class": "201-BBA-SE"
+    },
+    {
+      "Subject Name": "Business Statistics",
+      "percentage": 66,
+      "resource": 5,
+      "activities": 20,
+      "background": "#FEECEB",
+      "color:": "#FF8B85",
+      "NoOfStudents": 66,
+      "class": "101-BBA-SE"
+    },
+    {
+      "Subject Name": "Financial Accounting",
+      "percentage": 59,
+      "resource": 0,
+      "activities": 5,
+      "background": "#FFEBE0",
+      "color:": "#FF9C66",
+      "NoOfStudents": 74,
+      "class": "301-BBA-SE"
+    },
+    {
+      "Subject Name": "Cost Accounting",
+      "percentage": 0,
+      "resource": 10,
+      "activities": 5,
+      "background": "#FFFADE",
+      "color:": "#BAA226",
+      "NoOfStudents": 34,
+      "class": "401-BBA-SE"
+    },
+    {
+      "Subject Name": "Microeconomics 101",
+      "percentage": 100,
+      "resource": 14,
+      "activities": 5,
+      "background": "#F5FADE",
+      "color:": "#94AD23",
+      "NoOfStudents": 45,
+      "class": "201-BBA"
+    },
+    {
+      "Subject Name": "Operations Research 103",
+      "percentage": 50,
+      "resource": 19,
+      "activities": 5,
+      "background": "#FAF0FF",
+      "color:": "#C06DE9",
+      "NoOfStudents": 67,
+      "class": "101-BBA"
+    },
+    {
+      "Subject Name": "Business Communication",
+      "percentage": 88,
+      "resource": 10,
+      "activities": 5,
+      "background": "#FEECEB",
+      "color:": "#FF8B85",
+      "NoOfStudents": 51,
+      "class": "301-BBA"
+    }
+  ]
+}

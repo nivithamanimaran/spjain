@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshots 1`] = `
+<div
+  className="MuiPaper-root makeStyles-root-1 MuiPaper-elevation0 MuiPaper-rounded"
+  data-testid="KenCard"
+>
+  <p
+    className="MuiTypography-root makeStyles-examTitle-2 MuiTypography-body1"
+  >
+    Title
+  </p>
+</div>
+`;

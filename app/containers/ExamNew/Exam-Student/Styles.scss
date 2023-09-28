@@ -1,0 +1,15 @@
+.preview-table {
+  thead {
+    background: #0000001a;
+    box-sizing: border-box;
+    color: #00000099;
+  }
+}
+
+.subtable {
+  table.MuiTable-root {
+    thead.MuiTableHead-root {
+      display: none;
+    }
+  }
+}

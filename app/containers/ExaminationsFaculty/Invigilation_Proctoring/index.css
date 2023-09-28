@@ -1,0 +1,167 @@
+.btn_active {
+  background: #193389;
+  border-radius: 4px;
+  width: 280px;
+  height: 56px;
+}
+
+.btn_active span {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-transform: capitalize !important;
+  justify-content: normal !important;
+}
+
+.btn {
+  background: #ffffff !important;
+  border-radius: 4px;
+  width: 280px;
+  height: 56px;
+}
+
+.btn span {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #193389;
+  text-transform: capitalize !important;
+  justify-content: normal !important;
+}
+
+.table_header div div div table thead {
+  background-color: #f1f5fa !important;
+}
+.table {
+  width: 100% !important;
+  display: contents !important;
+  flex-wrap: wrap !important;
+  box-sizing: border-box !important;
+}
+
+.table_main {
+  margin-top: 30px !important;
+}
+
+.haeder_title_text div div div table thead tr th {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* or 22px */
+  text-transform: capitalize !important;
+
+  /* text-align: left; */
+
+  color: #092682;
+}
+
+.table_data_text div div div table tbody tr td span span {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  /* line-height: 20px; */
+
+  color: #222222;
+}
+
+.eligible_btn {
+  background: rgba(82, 193, 90, 0.27) !important;
+  width: fit-content !important;
+  box-shadow: none !important;
+  margin-right: 26% !important;
+}
+
+.eligible_btn span {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  color: #222222;
+  text-transform: capitalize !important;
+}
+
+.not_eligible_btn {
+  background: rgba(255, 239, 182, 0.27) !important;
+  width: fit-content !important;
+  margin-right: 10px !important;
+  box-shadow: none !important;
+}
+
+.not_eligible_btn span {
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  color: #222222;
+  text-transform: capitalize !important;
+}
+@media only screen and (max-width: 600px) {
+  .btn-main-div .btn_active {
+    background: #193389;
+    border-radius: 4px;
+    width: 148px;
+    height: 40px;
+  }
+
+  .btn-main-div .btn_active span {
+    font-family: 'Work Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-transform: capitalize !important;
+    justify-content: normal !important;
+  }
+
+  .btn-main-div .btn {
+    background: #ffffff !important;
+    border-radius: 4px;
+    width: 148px;
+    height: 40px;
+  }
+
+  .btn-main-div .btn span {
+    font-family: 'Work Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #193389;
+    text-transform: capitalize !important;
+    justify-content: normal !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .btn-main-div .btn_active {
+    width: 130px;
+  }
+
+  .btn-main-div .btn {
+    width: 130px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .btn-main-div .btn_active {
+    width: 115px;
+  }
+
+  .btn-main-div .btn {
+    width: 115px;
+  }
+}

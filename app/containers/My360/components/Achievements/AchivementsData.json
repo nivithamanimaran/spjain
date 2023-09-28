@@ -1,0 +1,711 @@
+{
+  "Conferences, Conclaves and Seminars": [
+    {
+      "label": "TITLE OF CONFERENCE",
+      "name": "conferenceTitle",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false,
+      "apiName": "Title"
+    },
+    {
+      "label": "CAPACITY",
+      "name": "capacity",
+      "inputType": "KenInput",
+      "options": [],
+      "value": "",
+      "required": true,
+      "disabled": false,
+      "apiName": "Capacity"
+    },
+    {
+      "label": "START DATE",
+      "name": "startDate",
+      "inputType": "KenDatePicker",
+      "value": "",
+      "required": true,
+      "disabled": false,
+      "apiName": "startdate"
+    },
+    {
+      "label": "END DATE",
+      "name": "endDate",
+      "inputType": "KenDatePicker",
+      "value": "",
+      "required": true,
+      "disabled": false,
+      "apiName": "Enddate"
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "documents",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    }
+  ],
+  "Consulting Projects": [
+    {
+      "label": "PROJECT TITLE",
+      "name": "ProjectTitle",
+      "apiName": "ProjectTitle",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PROJECT INDUSTRY",
+      "name": "projectIndustry",
+      "apiName": "ProjectIndustry",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CONSULTED ORGANIZATION",
+      "name": "consultedOrganization",
+      "apiName": "ConsultOrganizartion",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "NAME AND DESIGNATION OF THE POINT OF CONTACT",
+      "name": "designation",
+      "inputType": "KenInput",
+      "apiName": "NameOfDesigantion",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "TYPE OF CONSULTANCY FEE",
+      "name": "TypeConsultancyFee",
+      "apiName": "TypeOfFees",
+      "inputType": "KenSelect",
+      "options": [],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CONSULTANCY FEE CURRENCY",
+      "name": "feeCurrency",
+      "inputType": "KenSelect",
+      "apiName": "TypeOfCurrency",
+      "options": [],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PROPOSED OUTCOMES",
+      "name": "proposedOutcomes",
+      "inputType": "KenTextArea",
+      "apiName": "PostOutCme",
+      "value": "",
+      "row": "3",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "DELIVERED OUTCOME",
+      "name": "deliveredOutcome",
+      "inputType": "KenTextArea",
+      "apiName": "DeliveryOutCome",
+      "value": "",
+      "row": "3",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CONSULTANCY FEE AMOUNT",
+      "name": "feeAmount",
+      "inputType": "KenInput",
+      "FeesAmount": "FeesAmount",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "ATTACHMENT AGREEMENT",
+      "name": "attachmentAgreement",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "ANY OTHER ATTACHMENTS",
+      "name": "otherAttachments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    }
+  ],
+  "Grants": [
+    {
+      "label": "GRANT ISSUED BY",
+      "name": "grantIssuedBy",
+      "inputType": "KenInput",
+      "apiName": "IssueBy",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "GRANT CURRENCY",
+      "name": "grantCurrency",
+      "apiName": "GrantCurrency",
+      "inputType": "KenSelect",
+      "options": [
+        { "label": "Rupee", "value": "Rupee" },
+        { "label": "Dollar", "value": "Dollar" },
+        { "label": "Euro", "value": "Euro" },
+        { "label": "Dinar", "value": "Dinar" }
+      ],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "GRANT ISSUED FOR",
+      "name": "grantIssuefor",
+      "inputType": "KenInput",
+      "apiName": "GrantIssuefor",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "GRANT AMOUNT",
+      "name": "grantAmount",
+      "inputType": "KenInput",
+      "value": "",
+      "apiName": "Grantamount",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "OBLIGATIONS AGAINST RECEIVING THE GRANT",
+      "name": "grantDescription",
+      "apiName": "GrantDescription",
+      "inputType": "KenTextArea",
+      "value": "",
+      "row": "3",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    }
+  ],
+  "Learning,Development": [
+    {
+      "label": "TITLE OF TRAINING/COURSE",
+      "name": "courseTitle",
+      "apiName": "TitleOfTraining",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "MODE OF TRAINING",
+      "name": "modeTraining",
+      "inputType": "KenSelect",
+      "options": [
+        { "label": "Offline", "value": "Offline" },
+        { "label": "Online", "value": "Online" }
+      ],
+      "value": "",
+      "apiName": "ModeOfTraining",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "TRAINING DOMAIN",
+      "name": "trainingDomain",
+      "inputType": "KenSelect",
+      "apiName": "Domain",
+      "options": [
+        { "label": "Salesforce", "value": "Salesforce" },
+        { "label": "React Js", "value": "React Js" },
+        { "label": "Python", "value": "Python" },
+        { "label": "C", "value": "C" },
+        { "label": "Vlsi", "value": "Vlsi" },
+        { "label": "Java", "value": "Java" }
+      ],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "TRAINING/COURSE CONDUCTED BY",
+      "name": "trainingConductedBy",
+      "apiName": "ConductedbY",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "DID TRAINING HAVE FORMAL EVALUATION COMPONENT?",
+      "name": "formalEvaluation",
+      "apiName": "HaveFormal",
+      "inputType": "KenSelect",
+      "options": [
+        { "label": "Yes", "value": "Yes" },
+        { "label": "No", "value": "No" }
+      ],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CERTIFICATE ISSUED BY",
+      "name": "certificateIssuedBy",
+      "inputType": "KenInput",
+      "apiName": "CertifiacteIssueBy",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "RESULT",
+      "name": "result",
+      "inputType": "KenSelect",
+      "apiName": "Results",
+      "options": [
+        { "label": "Pass", "value": "Pass" },
+        { "label": "Fail", "value": "Fail" }
+      ],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    }
+  ],
+  "Patents": [
+    {
+      "label": "PATENT TITLE",
+      "name": "patentTitle",
+      "apiName": "patentTitle",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PATENT STATUS",
+      "name": "patentStatus",
+      "inputType": "KenSelect",
+      "apiName": "PatentStatus",
+      "options": [
+        { "label": "Utility", "value": "Utility" },
+        { "label": "Design", "value": "Design" },
+        { "label": "Active", "value": "Active" },
+        { "label": "Inactive", "value": "Inactive" },
+        { "label": "Inprogress", "value": "Inprogress" }
+      ],
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "APPLICATION NUMBER",
+      "name": "applicationNumber",
+      "apiName": "ApplicationNumber",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PATENT FILING OFFICE",
+      "name": "patentFilingOffice",
+      "inputType": "KenInput",
+      "apiName": "FileOffice",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PATENT NUMBER",
+      "name": "patentNumber",
+      "apiName": "PatentNumber",
+      "inputType": "KenInput",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "INTERNATIONAL PATENT CLASSIFICATION CODE",
+      "name": "internationalPatentCode",
+      "inputType": "KenInput",
+      "apiName": "ClassficationCode",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "P.C.T APPLICATION NUMBER",
+      "name": "PCTapplication",
+      "inputType": "KenInput",
+      "apiName": "PCTApplicationNo",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "P.C.T PUBLICATION NUMBER",
+      "name": "PCTpublication",
+      "inputType": "KenInput",
+      "apiName": "PCTPublicationNo",
+      "value": "",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PATENT DESCRIPTION",
+      "name": "patentDescription",
+      "apiName": "PCTDescription",
+      "inputType": "KenTextArea",
+      "value": "",
+      "row": "3",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "required": true,
+      "disabled": false
+    }
+  ],
+  "Publications": [
+    {
+      "label": "TYPE OF PUBLICATION",
+      "name": "typePublication",
+      "inputType": "KenSelect",
+      "options": [
+        { "label": "Paper in a Journal", "value": "Paper in a Journal" },
+        { "label": "Paper in a Conference", "value": "Paper in a Conference" },
+        { "label": "Chapter in a Book", "value": "Chapter in a Book" },
+        { "label": "Book", "value": "Book" }
+      ],
+      "value": "",
+      "required": true,
+      "width": 12,
+      "disabled": false
+    },
+    {
+      "label": "TITLE OF THE PAPER",
+      "name": "titlePaper",
+      "inputType": "KenInputSelective",
+      "apiName": "TitleOfPaper",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "LINK OF PUBLICATION",
+      "name": "linkPublication",
+      "apiName": "Linkofpublication",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CO-AUTHORS",
+      "name": "coAuthors",
+      "inputType": "KenInputSelective",
+      "apiName": "Coauthor",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "JOURNAL",
+      "name": "journal",
+      "inputType": "KenInputSelective",
+      "apiName": "journal",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "NUMBER",
+      "name": "number",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "publiNumber",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "YEAR OF PUBLICATION",
+      "name": "yearPublication",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "apiName": "YearOfPublication",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "VOLUME",
+      "name": "volume",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "volume",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PAGES",
+      "name": "pages",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "PAAGES",
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PUBLISHER",
+      "name": "publisher",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Journal",
+      "apiName": "Publisher",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "selective": "Paper in a Journal",
+      "required": true,
+      "disabled": false
+    },
+
+    {
+      "label": "TITLE OF THE PAPER",
+      "name": "titlePaper",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "apiName": "TitleOfPaper",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CONFERENCE NAME",
+      "name": "ConferenceName",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "apiName": "ConferenceNAme",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CO-AUTHORS",
+      "name": "coAuthors",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "apiName": "Coauthor",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "ORGANIZERS",
+      "name": "organizers",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "apiName": "Organizaer",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "YEAR",
+      "name": "year",
+      "inputType": "KenInputSelective",
+      "apiName": "YearOfPublication",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CONFERENCE RATING",
+      "name": "conferenceRating",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Paper in a Conference",
+      "apiName": "ConferenceRating",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "selective": "Paper in a Conference",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "TITLE OF THE BOOK",
+      "name": "titleBook",
+      "inputType": "KenInputSelective",
+      "apiName": "TitleOfBOOK",
+      "value": "",
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "publisher",
+      "name": "publisher",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "Publisher",
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CO-AUTHORS of the book",
+      "name": "coAuthorsBook",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "CoauthorOfBook",
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "YEAR OF PUBLICATION(1ST EDITION)",
+      "name": "yearPublication",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "YearOfPublication",
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "TITLE/TITLES OF THE CHAPTER",
+      "name": "title/titles",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "ChapterTitle",
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CO-AUTHORS OF THE CHAPTER",
+      "name": "coAuthorsChapter",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Chapter in a Book",
+      "apiName": "ChapterCoAuthor",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "selective": "Chapter in a Book",
+      "required": true,
+      "disabled": false
+    },
+
+    {
+      "label": "TITLE OF THE BOOK",
+      "name": "titleBook",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Book",
+      "apiName": "TitleOfBOOK",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "PUBLISHER",
+      "name": "publisher",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Book",
+      "apiName": "Publisher",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "CO-AUTHORS OF THE BOOK",
+      "name": "coAuthorsBook",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "apiName": "Coauthor",
+      "selective": "Book",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "YEAR OF PUBLICATION(1ST EDITION)",
+      "name": "yearPublication",
+      "inputType": "KenInputSelective",
+      "value": "",
+      "selective": "Book",
+      "apiName": "YearOfPublication",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "label": "SUPPORTING DOCUMENTS",
+      "name": "supportingDocuments",
+      "inputType": "KenDocuments",
+      "value": [],
+      "selective": "Book",
+      "required": true,
+      "disabled": false
+    }
+  ]
+}
